@@ -1,0 +1,50 @@
+.title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 120px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+h1.title {
+    margin-top: 80px;
+}
+h2.title {
+    font-size: 75px;
+}
+body {
+    background-color: black;
+}
+div#options {
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: 440px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    width: auto;
+    height: auto;
+}
+button.options {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding: 10px 32px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin: 8px;
+    width: 200px;
+    cursor: pointer;
+}
+button#begin {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    margin: 0px;
+    top: 340px;
+    left: 50%;
+    font-size: 32px;
+    width: 240px;
+}
